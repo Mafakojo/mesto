@@ -1,0 +1,5 @@
+.profile__container{
+  min-width: 456px;
+  display: flex;
+  align-items: center;
+}
