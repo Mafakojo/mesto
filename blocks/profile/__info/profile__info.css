@@ -4,5 +4,13 @@
   flex-wrap: wrap;
   max-width: 336px;
   max-height: 73px;
-  align-items:flex-end
+  align-items:baseline;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .profile__info{
+    justify-content: start;
+  }
+
 }
