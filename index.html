@@ -19,11 +19,11 @@
         <img src="./images/jack_ive.jpg" alt="фото аватара" class="profile__avatar">
       <div class="profile__info">
         <h1 class="profile__info-name">Жак-Ив Кусто</h1>
-        <button class="profile__edit-button"></button>
+        <button type="button" class="profile__edit-button"></button>
         <p class="profile__info-profession">Исседователь океана</p>
       </div>
       </div>
-      <button class="profile__button"></button>
+      <button type="button" class="profile__add-button"></button>
     </section>
     <section class="elements">
       <ul class="cards">
@@ -71,16 +71,19 @@
         </li>
       </ul>
     </section>
-    <section class="modal">
-      <h4 class="modal__title">Редактировать профиль</h4>
-      <p class="modal__profile-name">Жак-Ив Кусто</p>
-      <p class="modal__profile-profession">Исследователь океана</p>
-      <button class="modal__save-button"></button>
-      <button class="modal__slose-button"></button>
+    <section class="popup">
+      <div class="popup__container">
+        <h4 class="popup__title">Редактировать профиль</h4>
+        <input type="text" class="popup__profile" placeholder="Жак-Ив Кусто"></input>
+        <input type="text" class="popup__profile" placeholder="Исследователь океана"></input>
+        <button class="popup__save-button">Сохранить</button>
+        <button class="popup__close-button"></button>
+      </div>
     </section>
   </main>
 <footer class="footer">
   <p class="footer__copyright">© 2021 Mesto Russia</p>
 </footer>
+<script src="./scripts/scripts.js"></script>
 </body>
 </html>
