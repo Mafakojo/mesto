@@ -74,10 +74,12 @@
     <section class="popup">
       <div class="popup__container">
         <h4 class="popup__title">Редактировать профиль</h4>
-        <input type="text" class="popup__profile" placeholder="Жак-Ив Кусто"></input>
-        <input type="text" class="popup__profile" placeholder="Исследователь океана"></input>
-        <button class="popup__save-button">Сохранить</button>
-        <button class="popup__close-button"></button>
+        <form id="popup__form" method="get" action="#">
+          <input type="text" class="popup__profile popup__profile_name" name="popup__profile_name" placeholder="Жак-Ив Кусто"></input>
+          <input type="text" class="popup__profile popup__profile_profession" name="popup__profile_profession" placeholder="Исследователь океана"></input>
+          <button type="submit" class="popup__save-button">Сохранить</button>
+          <button class="popup__close-button"></button>
+        </form>
       </div>
     </section>
   </main>
