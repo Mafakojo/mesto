@@ -7,11 +7,13 @@
   color: #FFFFFF;
   padding: 0;
   margin: 18px 0 0;
+  text-align: start;
 }
 
 @media screen and (max-width: 767px) {
   .profile__info-profession{
-    margin: 14px 0 0;
+    margin: 14px auto 0;
+    text-align: center;
   }
 
 }
