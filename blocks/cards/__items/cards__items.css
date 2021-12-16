@@ -1,8 +1,8 @@
-.cards__items{
+.cards__items {
   background-color: #fff;
   border-radius: 10px;
   display: grid;
-  grid-template-rows: 282px 1fr;
+  grid-template-rows: 276px 1fr;
   max-width: 100%;
   overflow: hidden;
   position: relative;

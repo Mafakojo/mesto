@@ -1,90 +1,128 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Mesto-russia</title>
-    <link rel="stylesheet" href="./pages/index.css">
-    <link rel="icon" type="image/x-icon" href="./images/favicon.svg">
-</head>
-<body class="root">
-  <header class="header">
-    <img src="./images/logo.svg" alt="логотип" class="header__logo">
-  </header>
-  <main>
-    <section class="profile">
-      <img src="./images/jack_ive.jpg" alt="фото аватара" class="profile__avatar">
-      <div class="profile__container">
-        <div class="profile__info">
-          <h1 class="profile__info-name">Жак-Ив Кусто</h1>
-          <button type="button" class="profile__edit-button"></button>
+    <link rel="stylesheet" href="./pages/index.css"/>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg"/>
+  </head>
+  <body class="root">
+    <header class="header">
+      <img src="./images/logo.svg" alt="логотип" class="header__logo"/>
+    </header>
+    <main>
+      <section class="profile">
+        <img
+          src="./images/jack_ive.jpg"
+          alt="фото аватара"
+          class="profile__avatar"
+        />
+        <div class="profile__container">
+          <div class="profile__info">
+            <h1 class="profile__info-name">Жак-Ив Кусто</h1>
+            <button type="button" class="profile__edit-button"></button>
+          </div>
+          <h2 class="profile__info-profession">Исследователь океана</h2>
         </div>
-        <p class="profile__info-profession">Исседователь океана</p>
-      </div>
-      <button type="button" class="profile__add-button"></button>
-    </section>
-    <section class="elements">
-      <ul class="cards">
-        <li class="cards__items">
-          <img src="./images/cards_autumn.jpg" alt="рука держит лист" class="cards__image">
-          <div class="cards__title-container">
-            <h4 class="cards__title">Входной билетик</h4>
-            <button class="cards__button"></button>
-          </div>
-        </li>
-        <li class="cards__items">
-           <img src="./images/cards_car.jpg" alt="английская машина" class="cards__image">
-           <div class="cards__title-container">
-             <h4 class="cards__title">Половина автобуса</h4>
-            <button class="cards__button"></button>
-          </div>
-        </li>
-        <li class="cards__items">
-            <img src="./images/cards_cat.jpg" alt="кошка" class="cards__image">
+        <button type="button" class="profile__add-button"></button>
+      </section>
+      <section class="elements">
+        <ul class="cards">
+          <li class="cards__items">
+            <img
+              src="./images/cards_autumn.jpg"
+              alt="рука держит лист"
+              class="cards__image"
+            />
+            <div class="cards__title-container">
+              <h4 class="cards__title">Входной билетик</h4>
+              <button class="cards__button"></button>
+            </div>
+          </li>
+          <li class="cards__items">
+            <img
+              src="./images/cards_car.jpg"
+              alt="английская машина"
+              class="cards__image"
+            />
+            <div class="cards__title-container">
+              <h4 class="cards__title">Половина автобуса</h4>
+              <button class="cards__button"></button>
+            </div>
+          </li>
+          <li class="cards__items">
+            <img
+              src="./images/cards_cat.jpg"
+              alt="кошка"
+              class="cards__image"
+            />
             <div class="cards__title-container">
               <h4 class="cards__title">Шерстяной кот</h4>
               <button class="cards__button"></button>
             </div>
-        </li>
-        <li class="cards__items">
-            <img src="./images/cards_forest.jpg" alt="летний лес" class="cards__image">
+          </li>
+          <li class="cards__items">
+            <img
+              src="./images/cards_forest.jpg"
+              alt="летний лес"
+              class="cards__image"
+            />
             <div class="cards__title-container">
               <h4 class="cards__title">Кто то забыл еду</h4>
               <button class="cards__button"></button>
             </div>
-        </li>
-        <li class="cards__items">
-            <img src="./images/cards_girl.jpg" alt="девушка" class="cards__image">
+          </li>
+          <li class="cards__items">
+            <img
+              src="./images/cards_girl.jpg"
+              alt="девушка"
+              class="cards__image"
+            />
             <div class="cards__title-container">
               <h4 class="cards__title">Человек в волосах</h4>
               <button class="cards__button"></button>
             </div>
-        </li>
-        <li class="cards__items">
-            <img src="./images/cards_girl_with_dog.jpg" alt="девушка с собакой" class="cards__image">
+          </li>
+          <li class="cards__items">
+            <img
+              src="./images/cards_girl_with_dog.jpg"
+              alt="девушка с собакой"
+              class="cards__image"
+            />
             <div class="cards__title-container">
               <h4 class="cards__title">Собака со своим человеком</h4>
               <button class="cards__button"></button>
             </div>
-        </li>
-      </ul>
-    </section>
-    <section class="popup">
-      <div class="popup__container">
-        <h4 class="popup__title">Редактировать профиль</h4>
-        <form id="popup__form" method="get" action="#">
-          <input type="text" class="popup__profile popup__profile_name" name="popup__profile_name" placeholder="Жак-Ив Кусто">
-          <input type="text" class="popup__profile popup__profile_profession" name="popup__profile_profession" placeholder="Исследователь океана">
-          <button type="submit" class="popup__save-button">Сохранить</button>
-          <button class="popup__close-button"></button>
-        </form>
-      </div>
-    </section>
-  </main>
-<footer class="footer">
-  <p class="footer__copyright">© 2021 Mesto Russia</p>
-</footer>
-<script src="./scripts/scripts.js"></script>
-</body>
+          </li>
+        </ul>
+      </section>
+      <section class="popup">
+        <div class="popup__container">
+          <h4 class="popup__title">Редактировать профиль</h4>
+          <form id="popup__form" method="get" action="#">
+            <input
+              type="text"
+              class="popup__profile popup__profile_name"
+              name="popup__profile_name"
+              placeholder="Жак-Ив Кусто"
+            />
+            <input
+              type="text"
+              class="popup__profile popup__profile_profession"
+              name="popup__profile_profession"
+              placeholder="Исследователь океана"
+            />
+            <button type="submit" class="popup__save-button">Сохранить</button>
+            <button class="popup__close-button"></button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">© 2021 Mesto Russia</p>
+    </footer>
+    <script src="./scripts/scripts.js"></script>
+  </body>
 </html>

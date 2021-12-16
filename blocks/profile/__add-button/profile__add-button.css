@@ -1,4 +1,4 @@
-.profile__add-button{
+.profile__add-button {
   background-color: transparent;
   background-image: url(../../../images/add_button.svg);
   background-repeat: no-repeat;
@@ -14,5 +14,4 @@
   .profile__button{
     min-width: 282px;
   }
-
 }

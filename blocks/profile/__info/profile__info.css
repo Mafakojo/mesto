@@ -1,4 +1,4 @@
-.profile__info{
+.profile__info {
   display: flex;
   max-width: 336px;
   max-height: 73px;
@@ -10,5 +10,4 @@
   .profile__info{
     justify-content: center;
   }
-
 }

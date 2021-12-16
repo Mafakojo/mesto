@@ -1,9 +1,10 @@
-.profile__container{
+.profile__container {
   min-width: 456px;
   margin-right: auto;
+  padding-left: 30px;
 }
 
-@media screen and  (max-width: 767px){
+@media screen and  (max-width: 767px) {
   .profile__container {
     max-width: 320px;
     min-width: 100%;
