@@ -9,5 +9,6 @@
   .header {
     margin: 28px auto 0;
     padding-left: 27px;
+    min-height: 56px;
   }
 }
