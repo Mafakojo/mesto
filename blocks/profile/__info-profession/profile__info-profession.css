@@ -1,17 +1,17 @@
 .profile__info-profession {
-  font-family: Inter, Arial, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 0;
   margin: 9px 0 0;
   text-align: start;
 }
 
 @media screen and (max-width: 767px) {
-  .profile__info-profession{
+  .profile__info-profession {
     margin: 14px auto 0;
     text-align: center;
     font-family: Inter;

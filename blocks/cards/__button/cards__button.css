@@ -6,4 +6,10 @@
   border: none;
   width: 22px;
   height: 19px;
+  outline: none;
+}
+
+.cards__button:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
