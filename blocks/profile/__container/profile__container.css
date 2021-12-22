@@ -1,5 +1,5 @@
 .profile__container {
-  min-width: 456px;
+  max-width: 50%;
   margin-right: auto;
   padding-left: 30px;
 }
