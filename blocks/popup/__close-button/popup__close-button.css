@@ -8,8 +8,8 @@
   width: 32px;
   height: 32px;
   position: relative;
-  bottom: 350px;
-  left: 440px;
+  bottom: 334px;
+  left: 438px;
   cursor: pointer;
 }
 
@@ -21,7 +21,7 @@
   .popup__close-button {
     width: 20px;
     height: 20px;
-    bottom: 320px;
-    left: 281px;
+    bottom: 336px;
+    left: 261px;
   }
 }
